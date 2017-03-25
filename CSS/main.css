@@ -1,0 +1,51 @@
+@media only screen and (min-width: 768px) {
+    body {
+    background-image: url(../images/background1.png);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: 100%;
+    -webkit-background-size: cover;
+    }
+    .temp_header {
+    color: black;
+    }
+    .temp_result {
+    color:black;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+            background-image: url(../images/background2.png);
+            background-size: 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            -webkit-background-size: 100%;
+            -webkit-background-size: cover;
+    }
+    .temp_header {
+    color: white;
+    }
+    .temp_result {
+    color:white;
+    }
+}
+
+html {
+    height: 100vh; /* set viewport constraint */
+    min-height: 100%; /* enforce height */
+    min-width: 100%;
+}
+
+.container {
+  position: absolute;
+  width: 350px;
+  height: 300px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+}

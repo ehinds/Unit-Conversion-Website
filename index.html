@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>JavaScript Unit Converter</title>
+        <link href="CSS/bootstrap.min.css" rel="stylesheet">
+        <link href="CSS/main.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <center>
+    <div class ="container">
+            <div class = "temp_header">
+        <h1>Unit Conversion</h1>
+            </div>
+        <p>
+            <input type="number" id="unit" value = "0"/>
+            <br /> <br/>
+            <input type="button" id="f_to_c/k" value="       Fahrenheit to Celsius and Kelvin       "/>
+            <input type="button" id="c_to_f/k" value="       Celsius to Fahrenheit and Kelvin       "/>
+            <input type ="button" id="k_to_c/f" value="       Kelvin to Celsius and Fahrenheit       "/>
+            <input type ="button" id ="m_to_k" value=" Miles to Kilometers"/>
+            <input type ="button" id ="k_to_m" value ="Kilometers to Miles"/>
+        </p>
+        <div class = "temp_result">
+            <p id="result"></p>
+        </div>
+     </div>
+        </center>
+        <script src="js/temperature.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
